@@ -128,7 +128,7 @@ module kiosk_demo::kiosk_demo{
         transfer::public_share_object(kiosk);
     }
 
-    public entry fun place_nft_in_market_ready_to_sale(
+    public entry fun place_nft(
         kiosk_obj: &mut Kiosk,
         kiosk_cap: &KioskOwnerCap,
         nft: PaulNft, 
